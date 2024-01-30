@@ -38,5 +38,7 @@
             android:layout_marginTop="10dp"
             android:src="@drawable/drapeau_sen"/>
 
+
+
     </LinearLayout>
 </RelativeLayout>

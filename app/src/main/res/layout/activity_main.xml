@@ -13,7 +13,6 @@
         android:background="@drawable/border">
 
     <TextView
-        style="@style/Nitflex.welcome"
         android:id="@+id/text_one"
         android:text="@string/app_name"
         android:layout_width="wrap_content"
@@ -39,17 +38,17 @@
         android:layout_marginTop="10dp"
         android:src="@drawable/drapeau_sen"
         android:contentDescription="Description de l'image" />
-
-        <Button
-            android:id="@+id/button"
-            style="@style/Nitflex.start"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:background="@color/black"
-            android:padding="30dp"
-            android:text="@string/bouton"
-            android:textColor="@color/white" />
+    <Button
+        style="@style/Nitflex.start"
+        android:id="@+id/button"
+        android:text="@string/bouton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:background="@color/bleu"
+        android:padding="30dp"
+        android:layout_marginTop="10dp"
+        android:onClick="afficherStart" />
     </LinearLayout>
 </RelativeLayout>
