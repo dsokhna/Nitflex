@@ -2,5 +2,6 @@
 <resources>
     <string name="app_name">Bienvenue sur Nitflex</string>
     <string name="info_start">Ce film n\'est pas disponible :(</string>
-    <string name="bouton">Commencer</string>
+    <string name="menu_preferences">menu des préférences</string>
+    <string name="activer">Activer</string>
 </resources>
